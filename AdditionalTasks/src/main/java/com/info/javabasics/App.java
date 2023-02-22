@@ -1,17 +1,18 @@
 package com.info.javabasics;
 
-
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class App
 {
     public static void main( String[] args ) {
-        Developer dev1 = new Developer(1L, "Janusz", new ArrayList<Skill>(List.of(Skill.JS, Skill.Java)));
-        Developer dev2 = new Developer(2L, "Mikele", new ArrayList<Skill>(List.of(Skill.Python, Skill.Java, Skill.SQL)));
-        Developer dev3 = new Developer(3L, "Jan", new ArrayList<Skill>(List.of(Skill.JS, Skill.SQL)));
-        Developer dev4 = new Developer(4L, "Ukash", new ArrayList<Skill>(List.of(Skill.Java)));
-        Developer dev5 = new Developer(5L, "Anna", new ArrayList<Skill>(List.of(Skill.Python)));
+        Developer dev1 = new Developer(1L, "Janusz", new ArrayList<>(List.of(Skill.JS, Skill.Java)));
+        Developer dev2 = new Developer(2L, "Mikele", new ArrayList<>(List.of(Skill.Python, Skill.Java, Skill.SQL)));
+        Developer dev3 = new Developer(3L, "Jan", new ArrayList<>(List.of(Skill.JS, Skill.SQL)));
+        Developer dev4 = new Developer(4L, "Ukash", new ArrayList<>(List.of(Skill.Java)));
+        Developer dev5 = new Developer(5L, "Anna", new ArrayList<>(List.of(Skill.Python)));
 
         List<Developer> devs = new ArrayList<>(List.of(dev1, dev2, dev3, dev4, dev5));
 
