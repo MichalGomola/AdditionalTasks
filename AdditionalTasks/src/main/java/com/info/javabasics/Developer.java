@@ -1,6 +1,5 @@
 package com.info.javabasics;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Developer {
