@@ -24,18 +24,17 @@ public class App
         List<String> lettersToCount = new ArrayList<>();
         Collections.addAll(lettersToCount, strToCount.split(""));
 
-        Set<String> keySet = new HashSet<>(lettersToCount);
-        printSortedMap(keySet, lettersToCount);
+        printSortedMap(lettersToCount);
 
         scan.close();
     }
 
-    public static void printSortedMap(Set<String> letterSet, List<String> lettersToCount) {
-
+    public static void printSortedMap(List<String> lettersToCount) {
+        Set<String> keySet = new HashSet<>(lettersToCount);
         Map<String, Long> mapToSort = new HashMap<>();
         long keyValue;
 
-        for (String s : letterSet) {
+        for (String s : keySet) {
             keyValue = lettersToCount.stream()
                     .filter(ch -> ch.equals(s))
                     .count();
