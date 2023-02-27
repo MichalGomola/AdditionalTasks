@@ -10,7 +10,13 @@ public class App
         Circle circle1 = new Circle("Circle1", 5);
 
         System.out.println(square1 + ", pole: " +square1.calculateArea());
+        square1.rescale(2);
+        System.out.println(square1 + ", pole: " +square1.calculateArea());
         System.out.println(rec1 +", pole: " +rec1.calculateArea());
+        rec1.rescale(2);
+        System.out.println(rec1 +", pole: " +rec1.calculateArea());
+        System.out.println(circle1 + ", pole: " +circle1.calculateArea());
+        circle1.rescale(2);
         System.out.println(circle1 + ", pole: " +circle1.calculateArea());
 
     }

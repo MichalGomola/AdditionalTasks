@@ -9,7 +9,11 @@ public class Rectangle extends Shape{
         this.a = a;
         this.b = b;
     }
-
+    @Override
+    public void rescale(int times) {
+        this.a = this.a * times;
+        this.b = this.b * times;
+    }
     @Override
     public double calculateArea() {
         return a*b;

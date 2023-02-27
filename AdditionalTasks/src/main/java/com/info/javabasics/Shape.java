@@ -1,6 +1,6 @@
 package com.info.javabasics;
 
-public abstract class Shape {
+public abstract class Shape implements Scalable{
     String name;
 
     public Shape(String name) {
@@ -8,5 +8,6 @@ public abstract class Shape {
     }
 
     abstract double calculateArea();
+
 
 }

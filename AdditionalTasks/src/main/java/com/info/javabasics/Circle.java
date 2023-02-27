@@ -11,6 +11,11 @@ public class Circle extends Shape{
     }
 
     @Override
+    public void rescale(int times) {
+        this.r = this.r * times;
+    }
+
+    @Override
     public double calculateArea() {
         return round(PI * pow(r,2)*100)/100.0;
     }
