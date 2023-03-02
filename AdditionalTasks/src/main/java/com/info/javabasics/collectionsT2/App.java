@@ -1,4 +1,4 @@
-package com.info.javabasics;
+package com.info.javabasics.collectionsT2;
 
 import java.util.ArrayList;
 import java.util.Collections;
