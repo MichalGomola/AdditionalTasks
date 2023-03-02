@@ -1,4 +1,4 @@
-package com.info.javabasics;
+package com.info.javabasics.taskP1;
 
 import static java.lang.Math.*;
 

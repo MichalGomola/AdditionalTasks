@@ -1,4 +1,4 @@
-package com.info.javabasics;
+package com.info.javabasics.taskP1;
 
 public class Rectangle extends Shape{
     private double a;
