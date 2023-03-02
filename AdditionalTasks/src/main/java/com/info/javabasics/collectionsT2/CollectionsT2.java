@@ -11,9 +11,9 @@ import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.Set;
 
-public class App
+public class CollectionsT2
 {
-    public static void main( String[] args ) {
+    public static void start() {
 
         Scanner scan = new Scanner(System.in);
 

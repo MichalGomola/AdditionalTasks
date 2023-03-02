@@ -5,9 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class App
+public class CollectionsT1
 {
-    public static void main( String[] args ) {
+    public static void start()  {
         Developer dev1 = new Developer(1L, "Janusz", new ArrayList<>(List.of(Skill.JS, Skill.Java)));
         Developer dev2 = new Developer(2L, "Mikele", new ArrayList<>(List.of(Skill.Python, Skill.Java, Skill.SQL)));
         Developer dev3 = new Developer(3L, "Jan", new ArrayList<>(List.of(Skill.JS, Skill.SQL)));
