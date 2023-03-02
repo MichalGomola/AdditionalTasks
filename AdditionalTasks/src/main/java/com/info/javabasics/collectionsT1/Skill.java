@@ -1,4 +1,4 @@
-package com.info.javabasics;
+package com.info.javabasics.collectionsT1;
 
 public enum Skill {
     Java,
